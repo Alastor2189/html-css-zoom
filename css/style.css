@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 80px;
+    background-color: black;
+}
+
+footer {
+    height: 70px;
+    background-color: black
+}
+
+main {
+    height: calc(100vh - 160px);
+    background-color: black;
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.right-header {
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icon-grid,
+.arrow-alt {
+    width: auto;
+    background-color: #4a4949;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.user {
+    padding: 0.25em;
+    position: relative;
+}
+
+.microphone {
+    color: white;
+    background-color: ##5d6a7787;
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    padding: 4px;
+}
+
+.arrow-alt {
+    margin-left: 4px;
+}
