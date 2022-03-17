@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 
-header {
-    height: 80px;
+body {
     background-color: black;
 }
 
-footer {
-    height: 70px;
-    background-color: black
+header {
+    height: 80px;
+    background-color: black;
+    font-size: 0.9em;
 }
 
 main {
@@ -20,6 +20,8 @@ main {
     overflow-y: auto;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 40px;
 }
 
 .right-header {
@@ -27,6 +29,7 @@ main {
     color: white;
     display: flex;
     justify-content: flex-end;
+    margin-top: 0.4em
 }
 
 .icon-grid,
@@ -53,4 +56,58 @@ main {
 
 .arrow-alt {
     margin-left: 4px;
+}
+
+footer {
+    height: 70px;
+    background-color: #222222;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p,
+h3 {
+    font-size: 0.8em;
+}
+
+.object-footer {
+    text-align: center;
+    margin-right: 1em;
+    padding-top: 1.25em;
+}
+
+.angle-up {
+    text-align: center;
+    padding-top: 2em;
+    margin-right: 1em;
+}
+
+.object-footer i {
+    font-size: 1.6em;
+}
+
+.left-footer {
+    display: flex;
+}
+
+.center-footer {
+    display: flex;
+}
+
+.right-footer {
+    background-color: #4a4949;
+    color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 1.1em;
+}
+
+.object-footer p {
+    padding-top: 0.3em;
+}
+
+.fas.fa-share-square {
+    color: #4ac700;
 }
